@@ -32,6 +32,8 @@ print("welcome!",name,"our Number Guessing Game")
 choice=input("Do you want to start this game :")#type yes to start/no to exit
 if choice=="yes":
     guess()
+else:
+    print("type no to exit/yes to continue")
 while True:
     a=input('enter your choice')#type yes to continue/no to exit
     if a=="yes":
@@ -40,3 +42,4 @@ while True:
         print("--!--")
         break;
         
+
